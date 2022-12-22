@@ -2,7 +2,7 @@
 This repository contains scripts I used to create blob database for a de novo genome assembly for visualisation and removing contaminants
 ## 1. Installing blobtools and dependencies
 It can be installed with conda following the instructions provided [here](https://blobtoolkit.genomehubs.org/install/)
-Instead of running `sudo` command as instructed in above link. you can also install `firefox` `xvfb` with conda in the same environment where you install blobtools. [firefox](https://anaconda.org/conda-forge/firefox) [xvfb](https://anaconda.org/conda-forge/xvfbwrapper)
+Instead of running `sudo` command as instructed in above link. you can also install `firefox` `xvfb` with conda in the same environment where you install blobtools. [firefox](https://anaconda.org/conda-forge/firefox), [xvfb](https://anaconda.org/conda-forge/xvfbwrapper)
 
 In Canon the quickest approach to use blobtools is using an existing Docker image.  you can use singularity pull to download the Docker (technically OCI image) and convert it into a singularity SIF file
 ```
